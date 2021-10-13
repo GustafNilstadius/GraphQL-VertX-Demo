@@ -16,10 +16,6 @@ import java.util.List;
 
 public class MainVerticle extends AbstractVerticle {
 
-  private BookService bookService;
-  private AuthorService authorService;
-  private QuoteService quoteService;
-
   @Override
   public void start(Promise<Void> startPromise) {
     List<Future> futureList = new LinkedList<>();
