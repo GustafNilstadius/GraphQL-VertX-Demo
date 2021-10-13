@@ -1,8 +1,6 @@
-= Graphqlbbldemo
+= GraphQL Vert.X Demo
 
 image:https://img.shields.io/badge/vert.x-4.0.2-purple.svg[link="https://vertx.io"]
-
-This application was generated using http://start.vertx.io
 
 == Building
 
@@ -16,14 +14,9 @@ To package your application:
 mvn clean package
 ```
 
-To run your application:
-```
-mvn clean compile exec:java
-```
-
 == Run
 ```
-java -jar target/graphqlbbldemo-1.0.0-SNAPSHOT-fat.jar
+java -jar target/graphqlvertx-1.0.0-SNAPSHOT-fat.jar
 ```
 
 == Help
